@@ -1,4 +1,4 @@
-package com.yiguo.countdowndemo;
+package com.mic.countdowndemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

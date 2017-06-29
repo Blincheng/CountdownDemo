@@ -1,4 +1,4 @@
-package com.yiguo.countdowndemo;
+package com.mic.countdowndemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

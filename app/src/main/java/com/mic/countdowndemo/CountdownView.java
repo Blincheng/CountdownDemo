@@ -1,4 +1,4 @@
-package com.yiguo.countdowndemo;
+package com.mic.countdowndemo;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,6 +7,8 @@ import android.graphics.Rect;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
+
+import java.lang.ref.WeakReference;
 
 /**
  * Created by zhaocheng on 2017/3/27.
@@ -115,7 +117,8 @@ public class CountdownView extends TextView implements CountdownTime.OnCountdown
             if(countdownTime != null)
                 countdownTime.setSeconds(0);
         }else{
-            countdownTime = manager.addTime(time,id,this);
+            WeakReference<CountdownView> weakReference = new WeakReference<>(this);
+            countdownTime = manager.addTime(time,id,weakReference.get());
         }
         postInvalidate();
     }

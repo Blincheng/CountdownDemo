@@ -10,7 +10,7 @@
         android:textSize="20dp"
         android:gravity="center"
         android:layout_height="80dp" />
-    <com.yiguo.countdowndemo.CountdownView
+    <com.mic.countdowndemo.CountdownView
         android:id="@+id/countdownView"
         android:layout_width="match_parent"
         android:layout_height="80dp" />

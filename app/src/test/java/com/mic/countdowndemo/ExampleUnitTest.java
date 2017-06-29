@@ -1,4 +1,4 @@
-package com.yiguo.countdowndemo;
+package com.mic.countdowndemo;
 
 import org.junit.Test;
 

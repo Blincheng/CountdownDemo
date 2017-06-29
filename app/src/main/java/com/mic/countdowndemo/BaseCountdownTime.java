@@ -1,4 +1,4 @@
-package com.yiguo.countdowndemo;
+package com.mic.countdowndemo;
 
 /**
  * Created by zhaocheng on 2017/3/27.
